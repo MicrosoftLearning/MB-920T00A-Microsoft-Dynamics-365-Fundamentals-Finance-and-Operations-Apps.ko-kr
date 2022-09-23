@@ -1,0 +1,76 @@
+---
+lab:
+  title: '랩 1: 제품 분류 만들기'
+  module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
+---
+
+## <a name="lab-1---create-a-product-assortment"></a>랩 1 - 제품 분류 만들기
+
+## <a name="objectives"></a>목표
+
+향후 제공될 특정 상거래 채널에 할당할 관련 제품 분류를 만들어야 합니다.
+
+## <a name="lab-setup"></a>랩 설정
+
+   - **예상 소요 시간:** 10분
+
+## <a name="instructions"></a>Instructions
+
+1. Finance and Operations 페이지 왼쪽 위에서 **탐색 창 확장** 햄버거 메뉴를 선택합니다.
+
+1. 탐색 창에서 **소매 및 상거래** > **카탈로그 및 분류** > **분류**를 선택합니다.
+
+1. 페이지가 로드될 때까지 기다립니다.
+
+1. 분류 페이지에서 **+ 새로 만들기**를 선택합니다.
+
+1. 새 레코드 창에서 **일반**을 확장합니다.
+
+1. **개시 날짜** 상자를 선택하고 이후 날짜를 입력합니다.
+
+1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
+
+1. **만료 날짜**를 **안 함**으로 설정합니다.
+
+1. 만료 날짜를 사용하면 게시된 분류를 자동으로 비활성화할 수 있습니다.
+
+1. **상거래 채널**을 확장합니다.
+
+1. 상거래 채널 메뉴에서 **+ 라인 추가**를 선택합니다.
+
+1. 조직 노드 추가에서 **조직 계층 구조** 메뉴를 선택하고 **유형별 소매점(Fabrikam)** 을 선택합니다.
+
+1. 사용 가능한 조직 노드 목록에서 온라인을 선택하고 추가 ![오른쪽 화살표 아이콘](./media/d365-fo-add-org-node-icon.png) 아이콘을 선택하여 해당 노드를 **선택한 조직 노드**에 추가합니다.  
+  그러면 부모 노드와 모든 자식 노드가 추가됩니다.
+
+1. **쇼핑몰** 부모 노드를 추가하고 **확인**을 선택합니다.
+
+1. 상거래 채널에 노드 2개가 추가되었음을 확인합니다.
+
+1. **제품**을 확장합니다.
+
+1. 제품 메뉴에서 **+ 라인 추가**를 선택합니다.
+
+1. **범주** 메뉴를 선택하고 **팀 스포츠(팀 스포츠)** 를 선택한 후에 **확인**을 선택합니다.
+
+1. 그러면 부모 범주의 모든 자식 품목이 추가됩니다.
+
+1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
+
+1. **+ 라인 추가**, **범주** 메뉴를 차례로 선택하고 **팀 스포츠(팀 스포츠)** 를 확장한 후에 **야구**를 선택하고 **확인**을 선택합니다.
+
+1. 이미 포함되어 있는 상위 범주(여기서는 팀 스포츠)의 품목을 제외하려면 라인 유형 열에서 값을 **제외**로 변경합니다.
+
+1. 야구 범주 행을 사용하여 **제품** 메뉴를 선택합니다.
+
+1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
+
+1. 추가한 제품을 제거하려면 제품 상자의 내용을 삭제하고 키보드의 Tab 키를 누르거나 페이지의 다른 곳을 선택합니다.
+
+1. 상단 메뉴에서 **저장**을 선택합니다.
+
+1. 상단 메뉴에서 **게시**를 선택합니다.
+
+1. 대화 상자의 정보를 검토하고 **예**를 선택합니다.
+
+1. 새로 만든 제품 분류를 개시 날짜부터 사용할 수 있습니다.
