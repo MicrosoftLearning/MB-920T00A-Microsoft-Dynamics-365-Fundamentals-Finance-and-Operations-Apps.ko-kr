@@ -16,20 +16,20 @@
 
 - GitHub에서 이러한 파일은 학생 핸드북과 함께 사용하도록 설계되었지만, 중앙 리포지토리 역할을 하는 GitHub에 있기 때문에 MCT와 과정 작성자는 최신 랩 파일의 소스를 공유할 수 있습니다.
 
-- 트레이너는 강의를 할 때마다 GitHub에서 최신 Azure 서비스를 지원하기 위해 변경된 내용을 확인하고 최신 파일을 가져와서 강의에 사용하는 것이 좋습니다.
+- 강사는 전달이 수행될 때마다 GitHub를 확인하여 최신 Azure 서비스를 지원하기 위한 변경 내용이 적용되었는지 확인하고, 전달할 최신 파일을 확보하는 것이 좋습니다.
 
 ## <a name="what-about-changes-to-the-student-handbook"></a>수강생 핸드북의 변경 사항은 어떻게 되나요?
 
 - 학생 핸드북을 분기별로 검토하고 필요하다면 일반 MOC 릴리스 채널을 통해 업데이트합니다.
 
-## <a name="how-do-i-contribute"></a>기고하려면 어떻게 해야 하나요?
+## <a name="how-do-i-contribute"></a>기여하려면 어떻게 해야 하나요?
 
-- MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요한 경우 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
+- MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요하다면 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
 
 - - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
 
-## <a name="notes"></a>참고
+## <a name="notes"></a>메모
 
-### <a name="classroom-materials"></a>수업 자료
+### <a name="classroom-materials"></a>강의 자료
 
 It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
