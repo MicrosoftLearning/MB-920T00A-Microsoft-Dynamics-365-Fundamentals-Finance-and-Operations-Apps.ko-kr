@@ -7,10 +7,10 @@ demo:
 ## <a name="demo-2---create-an-invoice"></a>데모 2 - 송장 만들기
 
 1.  **프로젝트 관리** 작업 영역으로 이동합니다.  
-    In this demo, we'll go over the process of invoicing a single project within project operations. Although it's possible to perform mass invoicing, for demonstration purposes we will focus on just a single time and material project. We'll also see the posting results and financial insights within the project statement. Let's start with project invoicing. 
+    이 데모에서는 Project Operations 내에서 단일 프로젝트의 송장 발행 프로세스를 진행합니다. 대량 송장 발행을 수행할 수도 있지만 이 데모에서는 시간 및 재료 기반 프로젝트 하나의 송장을 발행하는 프로세스를 중점적으로 살펴봅니다.그리고 프로젝트 명세서 내에서 게시 결과 및 재무 인사이트도 확인합니다. 먼저 프로젝트 송장 발행부터 시작해 보겠습니다. 
 
-1. In the top-right company picker, verify the legal entity you are connected to is<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to<bpt id="p1"> **</bpt>USSI<ept id="p1">**</ept>.  
-    From the<bpt id="p1"> **</bpt>Project management<ept id="p1">**</ept> workspace, we can see all the active projects. We can search for projects using the filter, or in this example, we will select a known Project ID. 
+1. 오른쪽 위의 회사 선택기에서 연결할 법인이  **USSI**인지 확인합니다. 법인이  **USSI**가 아니면 USSI로 변경합니다.  
+     **프로젝트 관리** 작업 영역에서 활성 프로젝트를 모두 확인할 수 있습니다.필터를 사용하여 프로젝트를 검색할 수 있습니다. 이 예에서는 알려진 프로젝트 ID를 선택합니다. 
 
 1.  **활성 프로젝트** 테이블의  **프로젝트 ID** 열에서 **00000093 Contoso Consulting**을 선택합니다.  
 
@@ -24,7 +24,7 @@ demo:
     ![새 송장 제안이 강조 표시된 프로젝트 송장 제안 페이지의 스크린샷](./media/projops_invoice_1_new_invoice_proposal.png)
 
 1.  **송장 제안 만들기** 창에서  **거래 선택** 아래의 상자를 가리킵니다.  
-    From here, we can select things such as the invoicing method, the invoice date, the funding source, and the project. We can also choose to include sub projects, as well as incorporate transaction types, the start and end dates for transactions, and any financial dimensions we need. 
+    여기서 송장 발행 방법, 송장 날짜, 자금 출처, 프로젝트 등을 선택할 수 있습니다.하위 프로젝트를 포함할 수도 있으며 필요한 거래 유형, 거래 시작 날짜와 종료 날짜, 재무 차원 등도 통합할 수 있습니다. 
 
     ![거래 선택 섹션이 강조 표시된 송장 제안 만들기 창의 스크린샷](./media/projops_invoice_2_select_transactions.png)
 
@@ -34,7 +34,7 @@ demo:
     매개 변수를 선택한 후 검색 단추를 선택하여 해당 매개 변수에 맞는 거래를 찾습니다.
 
 1.  **검색**을 선택합니다.  
-    이 데모에서는 Project Operations 내에서 단일 프로젝트의 송장 발행 프로세스를 진행합니다.
+    다음으로는 모든 거래에 송장을 발행할 수 있도록 모두 선택 옵션을 선택합니다. 그러면 경비 및 시간에서 선택한 모든 항목이 선택됩니다.
 
 1.  **프로젝트 거래** 탭에서  **모두 선택**을 선택합니다.
 
@@ -57,7 +57,7 @@ demo:
     총계 화면에서는 총계정원장, 신용 한도 등의 고객 정보, 할인, 매출세에 대한 송장의 영향과 송장 자체의 영향을 확인할 수 있습니다. 
 
 1. 화면 오른쪽에서  **X**를 선택하여 페이지를 닫습니다.  
-    대량 송장 발행을 수행할 수도 있지만 이 데모에서는 시간 및 재료 기반 프로젝트 하나의 송장을 발행하는 프로세스를 중점적으로 살펴봅니다. 
+    이제 모든 송장 정보가 정확한지를 확인하기 위한 인쇄 미리 보기를 생성할 수 있습니다. 프로젝트 검토 회의에서 미리 보기를 사용해 송장을 확정하기 전에 모든 관련자가 총액에 합의하는지를 확인하는 조직도 있습니다. 
 
 1.  **송장 제안** 페이지의 탐색 모음에서  **인쇄 미리 보기**를 선택합니다. 
 
@@ -90,7 +90,7 @@ demo:
 1.  **송장 분개장** 페이지의 작업 표시줄에서  **바우처**를 선택합니다.
 
 1.  **바우처 거래** 페이지에서  **원장 계정** 열을 가리킵니다.  
-    그리고 프로젝트 명세서 내에서 게시 결과 및 재무 인사이트도 확인합니다.
+    여기서 총계정원장에 게시된 결과를 확인할 수 있습니다. 총계정원장 계정은 각 프로젝트에 적용된 재무 차원 및 계정 설정에 따라 결정됩니다.
 
 1.  **프로젝트 관리** 작업 영역으로 이동합니다. 
 
@@ -114,4 +114,4 @@ demo:
     ![계산 옵션이 강조 표시된 프로젝트 명세서 페이지의 스크린샷](./media/projops_invoice_4_calculate.png)
 
 1.  **거래**를 가리킵니다.  
-    먼저 프로젝트 송장 발행부터 시작해 보겠습니다.
+    데이터가 새로 고쳐지면 프로젝트 관리자는 거래 세부 정보로 추가 드릴다운하여 프로젝트 관련 결정을 내리거나 필요한 사항을 조정할 수 있습니다.이 데모에서는 시간 및 경비 거래가 모두 포함된 시간 및 재료 기반 송장을 처리했습니다. 송장을 미리 보기에서 확인하고 게시했으며, 원장 게시를 검토한 후 마지막으로 이 프로젝트 명세서를 통해 송장의 재정적 영향을 검토했습니다.

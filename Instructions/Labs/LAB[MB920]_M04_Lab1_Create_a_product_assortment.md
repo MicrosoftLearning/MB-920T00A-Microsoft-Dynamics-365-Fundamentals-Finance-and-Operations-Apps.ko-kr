@@ -28,7 +28,7 @@ lab:
 
 1. **개시 날짜** 상자를 선택하고 이후 날짜를 입력합니다.
 
-1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
+1. **분류 이름** 상자에 새 분류의 이름을 입력합니다. **신규 봄 시즌** 등의 이름을 입력할 수 있습니다.
 
 1. **만료 날짜**를 **안 함**으로 설정합니다.
 
@@ -55,7 +55,7 @@ lab:
 
 1. 그러면 부모 범주의 모든 자식 품목이 추가됩니다.
 
-1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
+1. 마지막 열 **라인 유형**을 검토합니다. 기본적으로는 모든 품목이 포함됩니다.
 
 1. **+ 라인 추가**, **범주** 메뉴를 차례로 선택하고 **팀 스포츠(팀 스포츠)** 를 확장한 후에 **야구**를 선택하고 **확인**을 선택합니다.
 
@@ -63,7 +63,7 @@ lab:
 
 1. 야구 범주 행을 사용하여 **제품** 메뉴를 선택합니다.
 
-1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
+1. 범주 내에 제품이 정의되어 있으면 포함하거나 제외할 특정 제품을 선택할 수 있습니다. **AdultBaseballInfield**를 선택합니다.
 
 1. 추가한 제품을 제거하려면 제품 상자의 내용을 삭제하고 키보드의 Tab 키를 누르거나 페이지의 다른 곳을 선택합니다.
 
