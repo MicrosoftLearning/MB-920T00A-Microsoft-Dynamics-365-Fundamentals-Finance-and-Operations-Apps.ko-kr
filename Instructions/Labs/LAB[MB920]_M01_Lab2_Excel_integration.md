@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objective"></a>Objective
 
-In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
+이 랩에서는 Dynamics Office 추가 기능 앱을 사용하여 금융 및 운영에서 Excel로 데이터를 복사하는 방법을 알아봅니다. 또한 동일한 앱을 사용하여 금융 및 운영 앱에 데이터를 삽입하는 방법을 알아봅니다.
 
 ## <a name="lab-steps"></a>랩 단계
 
@@ -22,7 +22,7 @@ In this lab, you will learn how to copy data from finance and operations to Exce
 
 4. **공급업체 그룹**(usmf)을 선택하고 Excel 템플릿을 다운로드합니다.
 
-5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
+5. 다운로드한 Excel 템플릿을 저장한 다음 열고, 필요한 경우 허용하고, 활성화를 닫고, **편집 사용**을 선택합니다. 이 추가 기능을 신뢰한 다음 로그인합니다(요청된 경우 동일한 자격 증명 사용).
 
     공급업체 그룹 테이블의 모든 기존 데이터가 Excel 스프레드시트에 표시됩니다.
 

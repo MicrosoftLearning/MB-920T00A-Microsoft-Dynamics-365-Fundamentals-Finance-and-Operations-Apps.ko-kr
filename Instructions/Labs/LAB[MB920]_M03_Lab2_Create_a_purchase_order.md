@@ -10,7 +10,7 @@ lab:
 
 ## <a name="objectives"></a>목표
 
-It's more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes. When created manually, a purchase order is usually created by a purchasing agent. Create a purchase order using the the USMF company.
+구매 주문은 보통 마스터 계획, 직접 배달 및 기타 프로세스를 완료하면 자동 작성됩니다. 수동 작성 시에는 대개 구매 담당자가 구매 주문을 작성합니다. 이 랩에서는 USMF 회사의 구매 주문을 만들어 봅니다.
 
 ## <a name="lab-setup"></a>랩 설정
 
@@ -30,25 +30,25 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. 구매 주문 만들기 창에서 **공급업체 거래처** 메뉴를 선택하고 **US-101**을 선택합니다.
 
-1. When you select a vendor, details from the vendor record, such as address, invoice account, delivery terms, and delivery mode, will be copied as default values into the order header. You can change these values at any time.
+1. 공급업체를 선택하면 주소, 송장 계좌, 배달 조건, 배달 모드 등 공급업체 레코드에 포함된 세부 정보가 주문 헤더에 기본값으로 복사됩니다. 이러한 값은 언제든지 변경할 수 있습니다.
 
 1. **일반** 섹션을 확장합니다.
 
 1. **보관 차원** 아래에서 **현장** 메뉴를 선택하고 현장 목록을 검토합니다.
 
-1. The Site field, together with the Warehouse field, specifies where the procured goods or services must be delivered. The default delivery address is the site. Both fields can be populated with values set up for the selected vendor, or you can specify them manually.
+1. 현장 필드와 창고 필드를 함께 사용하여 조달한 상품이나 서비스를 배달해야 하는 위치를 지정합니다. 기본 배달 주소는 현장입니다. 선택한 공급업체용으로 설정된 값을 이 두 필드에 입력할 수도 있고, 두 필드의 값을 수동으로 지정할 수도 있습니다.
 
 1. **날짜**에서는 배달 날짜 필드를 사용하여 조달한 상품과 서비스를 배달해야 하는 날짜를 지정합니다.
 
-1. You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates. If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.
+1. 주문에 배달 날짜 하나를 지정할 수도 있고, 개별 주문 라인에 고유한 배달 날짜를 지정할 수도 있습니다. 특정 제품이나 서비스의 지연 시간이 길어서 여기서 지정한 배달 날짜를 맞출 수 없다면 지연 시간을 고려해 이후의 배달 날짜가 적용되어 주문 라인이 작성됩니다.
 
-1. Expand the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> section. The <bpt id="p1">**</bpt>Orderer<ept id="p1">**</ept> box can be used to specify who is placing the order.
+1. **관리** 섹션을 확장합니다. **주문자** 상자를 사용하여 주문자를 지정할 수 있습니다.
 
-1. 구매 주문은 보통 마스터 계획, 직접 배달 및 기타 프로세스를 완료하면 자동 작성됩니다.
+1. 공급업체가 주문자에게 연락해야 하는 경우를 위해 공급업체와 주문자 정보를 공유하면 편리할 수 있습니다. 현재 사용자 계정이 사용자 페이지의 이름과 연결되어 있으면 이 값이 자동 할당될 수 있습니다.
 
 1. **확인**을 선택합니다.
 
-1. 수동 작성 시에는 대개 구매 담당자가 구매 주문을 작성합니다.
+1. 주문 머리글이 작성되었습니다. 구매 주문 라인을 사용할 때는 머리글 정보의 요약만 표시됩니다. 나머지 정보도 확인해야 하는 경우 **머리글**을 선택합니다.
 
     ![머리글 메뉴의 위치가 표시된 화면 이미지](./media/lp1-m3-purchase-order-header-option.png)
 
@@ -58,7 +58,7 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. **표시** 아래에서 **차원**을 선택합니다.
 
-1. 이 랩에서는 USMF 회사의 구매 주문을 만들어 봅니다.
+1. 제품에는 색, 크기, 스타일 등의 차원으로 구분되는 변형이 있을 수 있습니다. 현장, 창고 등의 보관 차원을 사용하도록 제품을 설정할 수도 있습니다. 일괄 처리, 일련 번호 등의 추적 차원(선택 사항)도 있습니다. 주문 입력 효율성을 높이려는 경우 회사에서 자주 사용하는 차원 필드를 주문 표에 직접 추가할 수 있습니다.
 
 1. 차원 표시 창의 **제품 차원**에서 **색** 체크박스를 선택합니다.
 
@@ -72,7 +72,7 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. 품목 번호를 지정하여 제품과 서비스용 주문 라인을 만들 수도 있고, 조달 범주를 지정하여 경비로 주문 라인을 만들 수도 있습니다.
 
-1. Procurement category is used for adding lines where procured items are expensed directly, rather than going into inventory. This means that if you need to expense a purchase, you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number. Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.
+1. 조달 범주를 사용하면 조달한 상품을 재고로 보관하지 않고 바로 경비 처리하는 라인을 추가할 수 있습니다. 즉, 구매 품목의 경비를 처리해야 하는 경우 품목 번호를 사용해 라인을 만드는 대신 조달 범주를 지정하는 구매 주문 라인을 만들면 됩니다. 품목을 조달 범주와 연결할 수 있습니다. 이 경우 조달 범주는 정보 제공용으로만 표시됩니다.
 
 1. **색** 메뉴를 선택하고 사용 가능한 옵션을 검토한 후에 색 중 하나 또는 여러 색 조합을 선택합니다.
 
@@ -84,21 +84,21 @@ It's more typical for purchase orders to be created automatically as result of m
 
 1. 지정 가능한 몇 가지 추가 정보는 다음과 같습니다.
 
-    - <bpt id="p1">**</bpt>Unit<ept id="p1">**</ept>: Indicates the unit of measure for the ordered quantity. Normally, the unit is automatically provided from the purchasing unit on the product master data.
+    - **단위**: 주문 수량의 측정 단위를 나타냅니다. 일반적으로는 제품 마스터 데이터의 구매 단위에서 단위가 자동 제공됩니다.
 
-    - <bpt id="p1">**</bpt>Unit price<ept id="p1">**</ept>: Contains a value from either a purchase agreement or a trade agreement. It is possible to change the unit price on individual order lines—for example, if a unique price is negotiated with the vendor.
+    - **단가**: 구매 계약 또는 거래 계약의 값이 포함됩니다. 공급업체와 고유한 가격을 협상한 경우 등에는 개별 주문 라인에서 단가를 변경할 수 있습니다.
 
-    - <bpt id="p1">**</bpt>Discount<ept id="p1">**</ept>: Represents a discount amount per unit. This discount therefore reduces the unit price by the discount. This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.
+    - **할인**: 단위당 할인 금액에 해당됩니다. 즉, 단가가 할인 금액만큼 낮아집니다. 이 할인은 보통 구매 계약이나 거래 계약에서 자동 제공됩니다. 그러나 공급업체와 고유한 할인을 협상한 경우에는 개별 라인에서 할인을 재정의할 수 있습니다.
 
-    - <bpt id="p1">**</bpt>Discount percentage<ept id="p1">**</ept>: When entered, this reduces the net amount for the line accordingly. The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.
+    - **할인율**: 할인율을 입력하면 라인의 순액이 할인율만큼 낮아집니다. 할인율은 구매 계약이나 거래 계약에서 자동 제공되는 경우가 많습니다. 그러나 공급업체와 고유한 할인율을 협상한 경우에는 개별 라인에서 할인율을 재정의할 수 있습니다.
 
-    - <bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept>: Calculated from other fields on the line, including quantity, unit price, discount, and discount percent. It is possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank, and when you post toward the line, the amount posted will be proportional to the net amount. Generally, the Net Amount field is only used for displaying the net amount of the line.
+    - **순액**: 수량, 단가, 할인, 할인율 등 라인에 포함된 다른 필드에서 계산됩니다. 순액을 변경할 수도 있지만, 그러면 단가, 할인, 할인율 필드의 내용이 지워집니다. 이 상태로 라인을 게시하면 순액에 비례하는 금액이 게시됩니다. 일반적으로 순액 필드는 라인의 순액을 표시할 때만 사용됩니다.
 
 1. 페이지 아래쪽의 구매 주문 라인 아래에서 **라인 세부 정보**를 선택합니다.
 
 1. **배달** 탭을 선택합니다.
 
-1. A unique delivery date can be assigned to each order line. The date is inherited from the field on the purchase order header, but you can change this.
+1. 각 주문 라인에 고유한 배달 날짜를 할당할 수 있습니다. 기본적으로는 구매 주문 헤더의 필드 날짜가 적용되지만 이 날짜는 변경할 수 있습니다.
 
 1. 구매 주문 라인 페이지를 닫습니다.
 
