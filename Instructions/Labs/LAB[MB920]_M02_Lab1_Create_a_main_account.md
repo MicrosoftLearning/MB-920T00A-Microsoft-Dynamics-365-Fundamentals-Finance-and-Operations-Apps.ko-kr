@@ -31,3 +31,5 @@ lab:
     - DB/CR 기본값: **차변**
 
  ![주 계정 스크린샷 - 계정 차트: 5단계에서 채운 필드가 있는 페이지 공유](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6. **저장**을 클릭합니다.
