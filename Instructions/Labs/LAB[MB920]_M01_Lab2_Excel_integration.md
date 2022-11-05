@@ -6,6 +6,8 @@ lab:
 
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>모듈 1: Dynamics 365 금융 및 운영 앱의 핵심 기능 살펴보기
 
+## <a name="lab-2---excel-integration"></a>랩 2 - Excel 통합
+
 ## <a name="objective"></a>Objective
 
 이 랩에서는 Dynamics Office 추가 기능 앱을 사용하여 금융 및 운영에서 Excel로 데이터를 복사하는 방법을 알아봅니다. 또한 동일한 앱을 사용하여 금융 및 운영 앱에 데이터를 삽입하는 방법을 알아봅니다.
