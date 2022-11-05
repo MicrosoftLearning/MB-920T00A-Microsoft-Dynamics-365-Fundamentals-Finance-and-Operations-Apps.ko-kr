@@ -34,7 +34,7 @@ lab:
 
         pass@word1
 
-    >[!Note] 바탕 화면에서 Internet Explorer가 자동으로 열릴 수 있습니다. 2~5단계를 아직 완료하지 않은 경우 Internet Explorer로 다시 이동하기 전에 해당 단계를 완료하세요.
+    >[!Note] 바탕 화면에서 Microsoft Edge가 자동으로 열릴 수 있습니다. 2~5단계를 아직 완료하지 않은 경우 Microsoft Edge로 다시 이동하기 전에 해당 단계를 완료하세요.
 
 1. 바탕 화면에서 **AdminUserProvisioning** 파일을 선택합니다.
 
@@ -45,7 +45,7 @@ lab:
 
 1. **확인**을 선택하여 계속 진행합니다.
 
-1. **Internet Explorer**를 엽니다.
+1. **Microsoft Edge**를 엽니다.
 
 1. <https://usnconeboxax1aos.cloud.onebox.dynamics.com> 링크로 이동합니다.
 
