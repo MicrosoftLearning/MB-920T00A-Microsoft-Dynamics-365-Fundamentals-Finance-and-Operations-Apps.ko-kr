@@ -34,29 +34,18 @@ lab:
 
         pass@word1
 
-    >[!Note] 바탕 화면에서 Microsoft Edge가 자동으로 열릴 수 있습니다. 2~5단계를 아직 완료하지 않은 경우 Microsoft Edge로 다시 이동하기 전에 해당 단계를 완료하세요.
+1. 계속하기 전에 관리 사용자 프로비저닝 스크립트가 완료될 때까지 기다립니다. 2~3분 정도 걸릴 수 있습니다. 스크립트가 완료되면 관리 사용자가 업데이트되었음을 확인하는 팝업 상자가 잠시 표시됩니다.
 
-1. 바탕 화면에서 **AdminUserProvisioning** 파일을 선택합니다.
+1. **Microsoft Edge** 는 Finance & Operations URL을 엽니다. <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
-1. 제공된 자격 증명을 입력하고 **제출**을 선택합니다.  
-화면 오른쪽 위의 **리소스** 메뉴에서 자격 증명을 확인할 수 있습니다.
-
-1. 계속하기 전에 스크립트가 완료될 때까지 기다립니다. 2~3분 정도 걸릴 수 있습니다. 스크립트가 완료되면 관리 사용자가 업데이트되었음을 확인하는 팝업 상자가 표시됩니다.
-
-1. **확인**을 선택하여 계속 진행합니다.
-
-1. **Microsoft Edge**를 엽니다.
-
-1. <https://usnconeboxax1aos.cloud.onebox.dynamics.com> 링크로 이동합니다.
-
-1. **리소스** 메뉴에 제공된 자격 증명을 사용하여 로그인합니다.
+1. **리소스** 메뉴에 제공된 사용자 이름 및 암호를 사용하여 로그인합니다.
 
 ### <a name="navigate-finance-and-operations-apps"></a>Finance and Operations 앱 탐색
-1. Finance and Operations 홈 페이지에는 다음 항목이 표시됩니다(구성되어 있는 경우).
+1. Finance and Operations 홈페이지에는 다음 항목이 표시됩니다.
 
     - 왼쪽 탐색 메뉴. 기본적으로 축소되어 있습니다.
 
-    - 회사 로고
+    - 회사의 배너 이미지
 
     - 조직 내 역할에 따라 제공되는 작업 영역 타일
 
@@ -119,10 +108,14 @@ lab:
 
 1. 오른쪽 위에는 추가 기능이 있습니다. 각 항목으로 마우스를 이동하여 기능 설명을 검토합니다. 검토를 완료한 후 **닫기** 아이콘을 선택하여 페이지를 닫고 홈 페이지로 돌아옵니다.
 
-    ![Power Apps, Office 앱, 페이지 새로 고침, 새 창에서 열기, 닫기 단추에 연결되는 추가 기능이 표시된 목록 페이지 오른쪽 위 메뉴](./media/m1-common-list-page-additional-features-menu.png)
+    ![Power Apps, Office 앱, 첨부 파일, 페이지 새로 고침, 새 창에서 열기, 닫기 단추에 연결되는 추가 기능이 표시된 목록 페이지 오른쪽 위 메뉴](./media/m1-common-list-page-additional-features-menu.png)
 
 1. 오른쪽 위에서 **도움말** 아이콘(물음표)를 선택하고 **도움말**을 선택합니다.
 
 1. 현재 페이지 관련 도움말 정보가 표시됩니다.
 
-1. 작업 영역 타일을 선택한 후 해당 작업 영역 관련 도움말 정보를 검토합니다. 검토를 완료한 후 홈 페이지로 돌아옵니다.
+1. 왼쪽 위에 있는 "재무 및 운영" 링크 또는 왼쪽 탐색 메뉴의 홈 아이콘을 사용하여 **기본 대시보드** 로 돌아갑니다.
+
+>[!Note] 바로 가기 키: Alt+Shift+Home, Finance and Operations는 시스템 액세스 속도를 높이기 위해 많은 바로 가기 키를 지원합니다. https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
+
+1. 다른 **작업 영역 타일**을 선택한 후 해당 작업 영역 관련 도움말 정보를 검토합니다. 완료되면 기본 대시보드로 돌아갑니다.
