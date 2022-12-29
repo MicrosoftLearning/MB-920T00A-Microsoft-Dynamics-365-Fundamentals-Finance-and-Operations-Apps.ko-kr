@@ -8,7 +8,7 @@
 
 - To support this course, we will need to make frequent updates to the course content to keep it current with the Azure services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Azure platform.
 
-- **MCT이신가요?**
+- We hope that this brings a sense of collaboration to the labs like we've never had before - when Azure changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
 
 ## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>이러한 파일을 릴리스된 MOC 파일과 관련하여 어떻게 사용해야 하나요?
 
@@ -26,7 +26,7 @@
 
 - MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요하다면 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
 
-- - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
+- You can submit bugs, changes, improvement and ideas.  Find a new Azure feature before we have?  Submit a new demo!
 
 ## <a name="notes"></a>메모
 
