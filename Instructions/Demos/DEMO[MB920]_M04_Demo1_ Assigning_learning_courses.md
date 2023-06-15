@@ -4,7 +4,7 @@ demo:
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
 ---
 
-## <a name="demo-1---assigning-learning-courses"></a>데모 1 - 학습 과정 할당
+## 데모 1 - 학습 과정 할당
 
 1. **Microsoft Dynamics 365 Human Resources** 홈 페이지로 이동합니다.  
     인사 관리자는 Microsoft Dynamics 365 Human Resources에서 직원에게 교육 과정을 할당할 수 있습니다. 이 예에서는 회사 신입 사원인 Alicia에게 입사한 지 30일이 지나지 않은 직원에게 제공되는 교육을 할당해야 합니다.
