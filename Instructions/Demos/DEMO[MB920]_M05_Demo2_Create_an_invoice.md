@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-2---create-an-invoice"></a>데모 2 - 송장 만들기
+## 데모 2 - 송장 만들기
 
 1.  **프로젝트 관리** 작업 영역으로 이동합니다.  
     이 데모에서는 Project Operations 내에서 단일 프로젝트의 송장 발행 프로세스를 진행합니다. 대량 송장 발행을 수행할 수도 있지만 이 데모에서는 시간 및 재료 기반 프로젝트 하나의 송장을 발행하는 프로세스를 중점적으로 살펴봅니다.그리고 프로젝트 명세서 내에서 게시 결과 및 재무 인사이트도 확인합니다. 먼저 프로젝트 송장 발행부터 시작해 보겠습니다. 

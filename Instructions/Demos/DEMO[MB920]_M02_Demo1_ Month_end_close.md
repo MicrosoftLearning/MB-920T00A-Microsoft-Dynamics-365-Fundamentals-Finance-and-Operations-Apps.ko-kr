@@ -4,7 +4,7 @@ demo:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="demo-1---month-end-close"></a>데모 1 - 월말 결산
+## 데모 1 - 월말 결산
 
 1. **Microsoft 365 for Finance and Operations** 홈 페이지로 이동합니다.  
     Microsoft Dynamics 365 for Finance and Operations에서 월말 결산 등의 새 재무 기간 결산을 작성하려면 먼저 **총계정원장** 모듈로 이동합니다.

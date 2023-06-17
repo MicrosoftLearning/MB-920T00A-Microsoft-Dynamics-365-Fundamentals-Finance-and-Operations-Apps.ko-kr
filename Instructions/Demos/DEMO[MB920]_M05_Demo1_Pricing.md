@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-1---project-operations-pricing"></a>데모 1 - Project Operations 가격 책정'
+## 데모 1 - Project Operations 가격 책정'
 
 1. **프로젝트 관리** 작업 영역으로 이동합니다.  
     이 데모에서는 Project Operations 내에서 판매 및 비용 가격을 설정합니다. 그리고 이전에 게시한 송장에서 비용과 가격을 파생하는 방법도 확인합니다.
