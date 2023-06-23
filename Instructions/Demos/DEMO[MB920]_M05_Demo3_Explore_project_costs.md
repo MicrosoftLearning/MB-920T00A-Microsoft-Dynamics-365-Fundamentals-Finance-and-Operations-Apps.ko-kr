@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-3---explore-project-costs"></a>데모 3 - 프로젝트 비용 살펴보기
+## 데모 3 - 프로젝트 비용 살펴보기
 
 이 데모에서는 Contoso Consulting 프로젝트 비용을 청구하는 데 사용할 시간 및 경비 항목을 만드는 과정을 단계별로 진행합니다. 웹 및 모바일 표시용으로 최적화된 형식의 항목을 살펴본 후, 워크플로를 사용하여 승인 프로세스를 관리하는 방법을 알아봅니다.
 
