@@ -1,12 +1,13 @@
 ---
 lab:
-  title: '랩 1: 금융 및 운영 앱 탐색'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: '랩 1.1: 금융 및 운영 앱 탐색'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# 모듈 1: Dynamics 365 금융 및 운영 앱의 핵심 기능 살펴보기
+# 학습 경로 1: Dynamics 365 금융 및 운영 앱의 핵심 기능 살펴보기
+# 모듈 1: 금융 및 운영 앱 설명
 
-## 랩 1: 금융 및 운영 앱 탐색
+## 랩 1.1: 금융 및 운영 앱 탐색
 
 ## 목표
 
@@ -51,8 +52,7 @@ lab:
 
     - 오른쪽 위에는 현재 작업 중인 회사, 알림, 설정, 도움말 링크가 표시됩니다. 표시된 회사가 **USMF**인지 확인합니다.
 
-    ![여러 영역이 강조 표시된 Finance and Operations 홈 페이지의 스크린샷](./media/lab-navigate-finance-and-operations-apps-04.png)
-
+    ![여러 영역이 강조 표시된 Finance and Operations 홈 페이지의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 2.  왼쪽 위에서 **탐색 창 확장** 햄버거 메뉴를 선택합니다.
 
 3.  탐색 창에는 **즐겨찾기**, **최근** 항목, **작업 영역** 및 **모듈**용 컬렉션이 있습니다.
@@ -69,7 +69,7 @@ lab:
 
 9.  **홈** 페이지 오른쪽 위에서 **설정** 아이콘을 선택하고 **사용자 옵션**을 선택합니다.
 
-    ![설정 아이콘과 사용자 옵션 드롭다운 목록의 스크린샷](./media/lab-navigate-finance-and-operations-apps-05.png)
+    ![설정 아이콘과 사용자 옵션 드롭다운 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 10. **옵션** 페이지에서 탭을 사용하여 계정에 적용되는 다양한 설정을 구성합니다.
 
@@ -85,27 +85,27 @@ lab:
 
 16. 검색 상자를 사용해 **모든 공급업체**를 검색합니다.
 
-17. **모든 공급업체** 지급 계정 > 공급업체를 선택합니다.
+17. **수취 계정** > **고객** > **모든 고객** 페이지를 선택합니다. 
 
-18. 페이지를 처음 검색할 때는 다소 기다려야 할 수도 있습니다. 검색이 처리되는 동안에는 검색 상자 오른쪽에 작은 회전 원이 표시됩니다.
+18. 페이지를 처음 검색할 때는 다소 기다려야 할 수도 있습니다. 검색 프로세스 중에 검색 상자의 오른쪽으로 작은 원이 회전합니다.
 
-19. **모든 공급업체** 페이지는 목록 페이지의 한 예입니다. 목록 페이지에는 읽기, 만들기, 삭제, 업데이트가 가능한 마스터 데이터가 포함됩니다. 목록 위의 리본을 사용하면 추가 기능을 확인할 수 있습니다.
+19. 19. **모든 공급업체 페이지**는 목록 페이지의 한 예입니다. 목록 페이지에는 읽기, 만들기, 삭제, 업데이트가 가능한 마스터 데이터가 포함됩니다. 목록 위의 리본에서 더 많은 기능을 사용할 수 있습니다.
 
-    ![메뉴 기능이 강조 표시된 모든 공급업체 목록의 스크린샷](./media/lab-navigate-finance-and-operations-apps-06.png)
+    ![메뉴 기능이 강조 표시된 모든 공급업체 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 
-20. 목록에서 공급업체 중 하나를 강조 표시하고 오른쪽에서 **관련 정보** 메뉴를 선택한 후 제공되는 추가 정보를 검토합니다.
+20. 목록에서 고객 중 하나를 강조 표시하고 오른쪽에서 **관련 정보** 메뉴를 선택한 후 제공되는 정보를 검토합니다.
 
-21. 공급업체 목록에서 **Acme Office Supplies**를 선택합니다.
+21. 21. **고객** 목록에서 **Contoso Retail San Dieg**를 선택합니다.
 
-22. **그룹** 메뉴를 선택하고 **공급업체 그룹** 열 제목을 선택합니다.
+22. **그룹** 메뉴를 선택하고 **고객 그룹** 열 제목을 선택합니다.
 
-    ![Acme Office Supplies의 공급업체 그룹 열 제목 스크린샷](./media/lab-navigate-finance-and-operations-apps-07.png)
+    ![ContosoRetail San Diego에 대한 고객 그룹의 스크린샷.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-16.svg)
 
 23. 대다수 메뉴에서는 정렬과 필터링 기능이 제공됩니다. 필터를 사용하면 원하는 필드 내용을 빠르게 찾을 수 있습니다.
 
 24. 오른쪽 상단에서 추가 기능을 확인합니다. 각 항목으로 마우스를 이동하여 기능 설명을 검토합니다. 검토를 완료한 후 **닫기** 아이콘을 선택하여 페이지를 닫고 **홈**페이지로 돌아옵니다.
 
-    ![Power Apps, Office 앱, 문서 첨부 파일, 페이지 새로 고침, 새 창에서 열기, 닫기 단추에 연결되는 추가 기능이 표시된 목록 페이지 오른쪽 위 메뉴의 스크린샷](./media/lab-navigate-finance-and-operations-apps-08.png)
+    ![Power Apps, Office 앱, 문서 첨부 파일, 페이지 새로 고침, 새 창에서 열기, 닫기 단추에 연결되는 추가 기능이 표시된 목록 페이지 오른쪽 위 메뉴의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
 25. 오른쪽 위에서 **도움말** 아이콘(물음표)를 선택하고 **도움말**을 선택합니다.
 

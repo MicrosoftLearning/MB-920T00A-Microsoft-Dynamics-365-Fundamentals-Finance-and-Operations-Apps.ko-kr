@@ -1,12 +1,12 @@
 ---
 lab:
-  title: '랩 2: Excel 통합'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: '랩 1.2: Excel 통합'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
+# 학습 경로 1: Dynamics 365 금융 및 운영 앱의 핵심 기능 살펴보기
+# 모듈 3: 금융 및 운영 앱의 보고 및 통합 기능 설명
 
-# 모듈 1: Dynamics 365 금융 및 운영 앱의 핵심 기능 살펴보기
-
-## 랩 2: Excel 통합
+## 랩 1.2: Excel 통합
 
 ## 목표
 
