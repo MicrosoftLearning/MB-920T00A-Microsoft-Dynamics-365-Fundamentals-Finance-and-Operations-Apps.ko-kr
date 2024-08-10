@@ -27,8 +27,6 @@ lab:
 
     - 암호: `pass@word1`
 
-1.  계속하기 전에 관리 사용자 프로비저닝 스크립트가 완료될 때까지 기다립니다. 2~3분 정도 걸릴 수 있습니다. 스크립트가 완료되면 관리 사용자가 업데이트되었음을 확인하는 팝업 상자가 잠시 표시됩니다. 
-
 1.  **Microsoft Edge** 는 Finance & Operations URL을 엽니다. <https://usnconeboxax1aos.cloud.onebox.dynamics.com> 
 
 1.  **리소스** 메뉴에 제공된 사용자 이름 및 암호를 사용하여 로그인합니다. 
