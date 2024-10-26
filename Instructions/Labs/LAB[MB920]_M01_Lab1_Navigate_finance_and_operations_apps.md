@@ -27,10 +27,15 @@ lab:
 
     - 암호: `pass@word1`
 
+1.  이 랩은 관리 사용자 계정을 자동으로 프로비전하도록 구성되었습니다. 완료되면 Edge가 자동으로 열리고 로그인하라는 메시지가 표시되면 리소스 탭에 있는 제공된 자격 증명으로 로그인할 수 있습니다. 이 프로세스가 실패하면 아래 참고 사항을 검토하세요. 그렇지 않으면 랩을 통해 이동할 수 있습니다. 
+
+    >바탕 화면에서 AdminUserProvisioning을 두 번 클릭합니다.
+이메일 주소 필드에 **리소스**의 사용자 이름을 입력한 다음 제출을 클릭합니다.
+관리 사용자에게 성공적으로 업데이트되었음을 알려줄 메시지가 표시되기를 기다립니다. 확인을 클릭합니다.   
+
 1.  **Microsoft Edge** 는 Finance & Operations URL을 엽니다. <https://usnconeboxax1aos.cloud.onebox.dynamics.com> 
 
 1.  **리소스** 메뉴에 제공된 사용자 이름 및 암호를 사용하여 로그인합니다. 
-
 
 ### Finance and Operations 앱 탐색
 
@@ -50,7 +55,7 @@ lab:
 
     - 오른쪽 위에는 현재 작업 중인 회사, 알림, 설정, 도움말 링크가 표시됩니다. 표시된 회사가 **USMF**인지 확인합니다.
 
-    ![여러 영역이 강조 표시된 Finance and Operations 홈 페이지의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
+    ![여러 영역이 강조 표시된 Finance and Operations 홈 페이지의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 2.  왼쪽 위에서 **탐색 창 확장** 햄버거 메뉴를 선택합니다.
 
 3.  탐색 창에는 **즐겨찾기**, **최근** 항목, **작업 영역** 및 **모듈**용 컬렉션이 있습니다.
@@ -67,7 +72,7 @@ lab:
 
 9.  **홈** 페이지 오른쪽 위에서 **설정** 아이콘을 선택하고 **사용자 옵션**을 선택합니다.
 
-    ![설정 아이콘과 사용자 옵션 드롭다운 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
+    ![설정 아이콘과 사용자 옵션 드롭다운 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 
 10. **옵션** 페이지에서 탭을 사용하여 계정에 적용되는 다양한 설정을 구성합니다.
 
@@ -87,13 +92,15 @@ lab:
 
 18. 페이지를 처음 검색할 때는 다소 기다려야 할 수도 있습니다. 검색 프로세스 중에 검색 상자의 오른쪽으로 작은 원이 회전합니다.
 
-19. 19. **모든 공급업체 페이지**는 목록 페이지의 한 예입니다. 목록 페이지에는 읽기, 만들기, 삭제, 업데이트가 가능한 마스터 데이터가 포함됩니다. 목록 위의 리본에서 더 많은 기능을 사용할 수 있습니다.
+19. **모든 공급업체 페이지**는 목록 페이지의 한 예입니다. 목록 페이지에는 읽기, 만들기, 삭제, 업데이트가 가능한 마스터 데이터가 포함됩니다. 목록 위의 리본에서 더 많은 기능을 사용할 수 있습니다.
 
-    ![메뉴 기능이 강조 표시된 모든 공급업체 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
+    ![메뉴 기능이 강조 표시된 모든 공급업체 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 20. 목록에서 고객 중 하나를 강조 표시하고 오른쪽에서 **관련 정보** 메뉴를 선택한 후 제공되는 정보를 검토합니다.
 
-21. 21. **고객** 목록에서 **Contoso Retail San Dieg**를 선택합니다.
+    ![메뉴 기능이 강조 표시된 모든 공급업체 목록의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-19.png)
+
+21. **고객** 목록에서 **Contoso Retail San Diego**를 선택합니다.
 
 22. **그룹** 메뉴를 선택하고 **고객 그룹** 열 제목을 선택합니다.
 
@@ -105,9 +112,5 @@ lab:
 
     ![Power Apps, Office 앱, 문서 첨부 파일, 페이지 새로 고침, 새 창에서 열기, 닫기 단추에 연결되는 추가 기능이 표시된 목록 페이지 오른쪽 위 메뉴의 스크린샷](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
-25. 오른쪽 위에서 **도움말** 아이콘(물음표)를 선택하고 **도움말**을 선택합니다.
 
-26. 현재 페이지 관련 도움말 정보가 표시됩니다.
-
-27. 작업 영역 타일을 선택한 후 해당 작업 영역 관련 도움말 정보를 검토합니다. 검토를 완료한 후 **홈** 페이지로 돌아옵니다.
 
