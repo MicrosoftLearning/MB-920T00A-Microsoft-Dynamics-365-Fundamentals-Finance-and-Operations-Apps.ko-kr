@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # MB-920: Microsoft Dynamics 365 기본 사항(금융 및 운영 앱)
 
 - **[최신 학생 핸드북 및 AllFiles 콘텐츠 다운로드](https://learningdownloadcenter.microsoft.com/)**
